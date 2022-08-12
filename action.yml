@@ -5,16 +5,16 @@ description: "GitHub Action For Docker Hub Image Build And Push"
   #icon: "package"
   #color: "green"
 inputs:
-  registry_url:
+  #registry_url:
     description: "Docker Registry Url, #eg: docker.io"
     required: true
-  repository_name:
+  #repository_name:
     description: "Docker Image Repository Name, #eg: demo-app"
     required: true
-  user_name:
+  #user_name:
     description: "Docker Login UserName, from: https://hub.docker.com/"
     required: true
-  password:
+  #password:
     description: "Docker Login Access Token, from: https://hub.docker.com/"
     required: true
   image_version:
