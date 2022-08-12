@@ -1,26 +1,22 @@
 name: "DockerHub Build And Push"
 description: "GitHub Action For Docker Hub Image Build And Push"
-#author: "abhishek-070 <dabhishek175@gmail.com>"
-#branding:
-  #icon: "package"
-  #color: "green"
 inputs:
-  #registry_url:
+  registry_url:
     description: "Docker Registry Url, #eg: docker.io"
     required: true
-  #repository_name:
+  repository_name:
     description: "Docker Image Repository Name, #eg: demo-app"
     required: true
-  #user_name:
+  user_name:
     description: "Docker Login UserName, from: https://hub.docker.com/"
     required: true
-  #password:
+  password:
     description: "Docker Login Access Token, from: https://hub.docker.com/"
     required: true
   image_version:
     description: "Image Build Version"
     required: true
-  #docker_file:
+  docker_file:
     description: "Docker File Directory, Default Current Directory (.)"
     required: false
     default: "."
