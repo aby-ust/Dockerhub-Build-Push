@@ -1,9 +1,9 @@
 name: "DockerHub Build And Push"
 description: "GitHub Action For Docker Hub Image Build And Push"
-author: "abhishek-070 <dabhishek175@gmail.com>"
-branding:
-  icon: "package"
-  color: "green"
+#author: "abhishek-070 <dabhishek175@gmail.com>"
+#branding:
+  #icon: "package"
+  #color: "green"
 inputs:
   registry_url:
     description: "Docker Registry Url, eg: docker.io"
