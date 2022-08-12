@@ -6,10 +6,10 @@ description: "GitHub Action For Docker Hub Image Build And Push"
   #color: "green"
 inputs:
   registry_url:
-    description: "Docker Registry Url, eg: docker.io"
+    description: "Docker Registry Url, #eg: docker.io"
     required: true
   repository_name:
-    description: "Docker Image Repository Name, eg: demo-app"
+    description: "Docker Image Repository Name, #eg: demo-app"
     required: true
   user_name:
     description: "Docker Login UserName, from: https://hub.docker.com/"
@@ -20,7 +20,7 @@ inputs:
   image_version:
     description: "Image Build Version"
     required: true
-  docker_file:
+  #docker_file:
     description: "Docker File Directory, Default Current Directory (.)"
     required: false
     default: "."
