@@ -1,0 +1,19 @@
+connector:
+  name: githuborginal
+  identifier: githuborginal
+  description: ""
+  orgIdentifier: org1
+  projectIdentifier: proj1
+  type: Github
+  spec:
+    url: https://github.com/aby-ust
+    validationRepo: firstdrone1
+    authentication:
+      type: Http
+      spec:
+        type: UsernameToken
+        spec:
+          username: aby
+          tokenRef: aby
+    executeOnDelegate: false
+    type: Account
