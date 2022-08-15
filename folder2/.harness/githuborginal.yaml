@@ -14,6 +14,6 @@ connector:
         type: UsernameToken
         spec:
           username: aby
-          tokenRef: aby
+          tokenRef: abya
     executeOnDelegate: false
     type: Account
